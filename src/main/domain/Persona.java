@@ -4,9 +4,9 @@ package main.domain;
  * @author {@link "mailto:ehedeidev@gmail.com"}
  */
 public class Persona {
-    private String nombre;
-    private int edad;
-    private String telefono;
+    protected String nombre;
+    protected int edad;
+    protected String telefono;
 
     public String getNombre() {
         return nombre;
